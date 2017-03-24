@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Twilio Omni Channel Contact Center - Call Agent Interface</title>
+<title>Samaritans Volunteer Interface</title>
 
   <link rel="stylesheet" href="/styles/default.css" type="text/css" />
   <link rel="stylesheet" href="/styles/bootstrap.css" type="text/css" />
@@ -22,7 +22,7 @@
       <div class="panel-body">
 
         <div class="logout"><span ng-click="logout()">logout</span></div> 
-        <h3 class="name" class="page-header">{{worker.friendlyName}}&#39;s Call Agent Interface</h3>
+        <h3 class="name" class="page-header">{{worker.friendlyName}}&#39;s Volunteer Interface</h3>
 
         <div>Status:&nbsp;<span style="font-size:1em" ng-class="{'label-success': worker.activityName == 'Idle', 'label-danger': worker.activityName == 'Busy', 'label-default': worker.activityName == 'Offline', 'label-warning': worker.activityName == 'Reserved'}" class="label">{{worker.activityName}}</span></div>
 
